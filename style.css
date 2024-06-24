@@ -1,0 +1,62 @@
+.body{
+    background-color: rgb(27, 25, 25);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-family: Arial, sans-serif;
+}
+
+.contenedor1{
+    background-color: rgba(8, 8, 8, 0.712);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(53, 191, 255);
+    text-align: center; 
+    width: 80%;
+    max-width: 400px;
+    position: relative;
+    top: 50px;
+}
+
+.fotodeperfil{
+    border-radius: 50%; 
+}
+
+.textosdc{
+    color: white;
+}
+.textosdc2{
+    color: rgb(53, 191, 255);
+}
+
+.redes{
+    color: rgb(64, 165, 109);
+    font-size: 15px color white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding: 8px 50px;
+    margin-bottom: 15px; 
+    font-size: 18px;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid rgb(28, 41, 226);
+    border-radius: 10px;
+    box-shadow: 0 0 16px rgb(28, 41, 226);
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.button:hover {
+    background-color: rgba(29, 26, 26, 0.829);
+    color: rgb(53, 191, 255);
+}
+
+
